@@ -1,0 +1,38 @@
+/* DEVELOPER: Umar Farooq, IS117-006, Spring 2024 */
+
+body{
+    background-color: aliceblue;
+}
+.logo {
+    width: 2rem;
+    height: auto; 
+}
+
+.faheel{
+    display: block;
+    width: 20rem; 
+    height: auto; 
+    float: left;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style for description under images of models*/
+  .img-description{
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+  
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(209, 232, 252);
+    color: rgb(89, 89, 89);
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
