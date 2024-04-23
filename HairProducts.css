@@ -55,6 +55,26 @@ h1 {
   text-decoration: none;
 }
 
+/* initially hides the two tier navigation page*/
+.submenu {
+  background-color:rgb(30, 70, 119);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: none;
+}
+
+.submenu ul {
+  background-color:aliceblue;
+  width: auto;
+}
+
+/*Shows two tier navigation page on hover*/
+.nav li:hover > .submenu{
+  display: block;
+}
+
+
 main{
   margin-left: 2em;
   width: 60em;
