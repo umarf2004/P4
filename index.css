@@ -66,7 +66,6 @@ h1 {
 /* Style for the navigation bar */
 nav {
   background-color: rgb(30, 69, 119);
-  padding: 0.5rem;
 }
 
 body, ul {
@@ -82,9 +81,11 @@ nav ul {
 
 nav ul li {
   float: left;
+  position: relative;
 }
 
 nav ul li a {
+  position: relative;
   display: block;
   color: white;
   text-align: center;
@@ -97,6 +98,24 @@ nav ul li a:hover {
 }
 
 
+/* initially hides the two tier navigation page*/
+.submenu {
+  background-color:rgb(30, 70, 119);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: none;
+}
+
+.submenu ul {
+  background-color:aliceblue;
+  width: auto;
+}
+
+/*Shows two tier navigation page on hover*/
+.nav li:hover > .submenu{
+  display: block;
+}
 
 /*Style for text on top of home page */
 p1{
