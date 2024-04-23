@@ -66,6 +66,7 @@ h1 {
 /* Style for the navigation bar */
 nav {
   background-color: rgb(30, 69, 119);
+  padding: 0.5rem;
 }
 
 body, ul {
