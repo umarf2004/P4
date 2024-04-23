@@ -32,11 +32,16 @@ Website: Lists products for men's hair, beard, and grooming needs.
         <main>
             <!--Navigation Bar -->
             <nav>
-                <ul>
+                <ul class="nav">
                     <li><a href="index.html" id="home">Home</a></li>
                     <li><a href="HairProducts.html" id="hair">Hair</a></li>
-                    <li><a href="BeardProducts.html" id="beard">Beard</a></li>
-                    <li><a href="GroomingProducts.html" id="grooming">Grooming</a></li>
+                    <!-- two tier nav-->
+                    <li><a href="BeardProducts.html" id="beard">Beard</a>
+                        <ul class="submenu">
+                            <li><a href="GroomingProducts.html" id="grooming">Grooming</a></li>
+                        </ul>
+                    </li>
+                    <!-- ------------------ -->
                     <li><a href="Contact.html" id="contact">Contact</a></li>
                 </ul>
             </nav>
